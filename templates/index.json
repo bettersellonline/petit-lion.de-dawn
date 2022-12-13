@@ -106,6 +106,49 @@
         "padding_bottom": 0
       }
     },
+    "5a6bf641-dacc-43d8-ba4e-dec02f5786e2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Sieh dich um und finde tolle Kleidung und Deko Artikel für dein Baby<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-0",
+        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-1",
+        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "a66cc19c-38ee-4bee-a92c-83c036fef1d7": {
       "type": "collection-list",
       "blocks": {
@@ -134,7 +177,7 @@
         "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-2"
       ],
       "settings": {
-        "title": "Sieh dich um und finde tolle Kleidung und Deko Artikel für dein Baby",
+        "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -142,7 +185,7 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
@@ -151,6 +194,7 @@
     "image_banner",
     "featured_collection",
     "rich_text",
+    "5a6bf641-dacc-43d8-ba4e-dec02f5786e2",
     "a66cc19c-38ee-4bee-a92c-83c036fef1d7"
   ]
 }
