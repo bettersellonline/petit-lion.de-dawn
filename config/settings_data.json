@@ -1,5 +1,7 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/Logo_petit_lion.png",
+    "logo_width": 100,
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
