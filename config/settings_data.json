@@ -163,15 +163,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Rechtliches",
-              "menu": "footer"
+              "menu": "rechtliches"
             }
           },
           "footer-1": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "Produkte",
+              "menu": "produkte"
             }
           },
           "footer-2": {
