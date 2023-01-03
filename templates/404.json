@@ -1,10 +1,56 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "f656b034-984b-44e6-9340-910171f0f7d8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16581756453132__f656b034-984b-44e6-9340-910171f0f7d8-1672739455602a9ffb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>404 Seite nicht gefunden<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16581756453132__f656b034-984b-44e6-9340-910171f0f7d8-1672739455602a9ffb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href=\"\/collections\" title=\"All collections\">hier<\/a>, um den Einkauf fortzusetzen.<\/p>"
+          }
+        },
+        "template--16581756453132__f656b034-984b-44e6-9340-910171f0f7d8-1672739455602a9ffb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zurück zur Startseite",
+            "button_link": "\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16581756453132__f656b034-984b-44e6-9340-910171f0f7d8-1672739455602a9ffb-0",
+        "template--16581756453132__f656b034-984b-44e6-9340-910171f0f7d8-1672739455602a9ffb-1",
+        "template--16581756453132__f656b034-984b-44e6-9340-910171f0f7d8-1672739455602a9ffb-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f656b034-984b-44e6-9340-910171f0f7d8"
   ]
 }
