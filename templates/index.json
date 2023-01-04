@@ -49,6 +49,72 @@
         "show_text_below": false
       }
     },
+    "6afac354-cd1a-4671-b139-a77bb6998fe3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dein Shop für schlichte und besondere Dekoration aus Deutschland",
+            "heading_size": "h1"
+          }
+        },
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>petit lion ist ein kleines aber hochmotiviertes Unternehmen, das sich auf Kinderzimmer Dekoration spezialisiert hat Angeregt durch meine Kinder, gründete ich dieses Label und setze meine Leidenschaft für schlichte Designs in meine Arbeit ein.<\/p><p><br\/>Wir möchten unseren Kunden etwas ganz Besonderes bieten. Dabei stehen ihre Wünsche ganz oben auf unserer Prioritätenliste.<br\/><\/p><p>Entdecke unsere ganz besondere Deko für Mädchen- und Jungenzimmer.<\/p><p><br\/>Dekokissen aus Leinen, Wandschmuck aus Holz und Jute für Dschungelzimmer, Wald- oder Unterwasserthemen - finde hier die passenden Stücke und verschönere das Zimmer deines Kindes oder überrasche jemanden mit einem einzigartigen Geschenk.<\/p><p><\/p><p>Alexandra<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-0",
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Foto_12.09.21_10_33_02.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c36e1142-3380-4e59-ac48-06af66b8b14e": {
+      "type": "rich-text",
+      "blocks": {
+        "8350de8f-bb3b-4c7e-ab0c-386100754c86": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Dein Shop für schlichte und besondere Dekoration aus Deutschland<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "cec8b536-fb1c-45d6-8a36-cd95eca5b050": {
+          "type": "text",
+          "settings": {
+            "text": "<p>petit lion ist ein kleines aber hochmotiviertes Unternehmen, das sich auf Kinderzimmer Dekoration spezialisiert hat Angeregt durch meine Kinder, gründete ich dieses Label und setze meine Leidenschaft für schlichte Designs in meine Arbeit ein.<\/p><p><br\/>Wir möchten unseren Kunden etwas ganz Besonderes bieten. Dabei stehen ihre Wünsche ganz oben auf unserer Prioritätenliste.<br\/><\/p><p>Entdecke unsere ganz besondere Deko für Mädchen- und Jungenzimmer.<\/p><p><br\/>Dekokissen aus Leinen, Wandschmuck aus Holz und Jute für Dschungelzimmer,<br\/>Wald- oder Unterwasserthemen - finde hier die passenden Stücke und verschönere das Zimmer deines Kindes oder überrasche jemanden mit einem einzigartigen Geschenk.<\/p><p><\/p><p>Alexandra<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8350de8f-bb3b-4c7e-ab0c-386100754c86",
+        "cec8b536-fb1c-45d6-8a36-cd95eca5b050"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -192,6 +258,8 @@
   },
   "order": [
     "image_banner",
+    "6afac354-cd1a-4671-b139-a77bb6998fe3",
+    "c36e1142-3380-4e59-ac48-06af66b8b14e",
     "featured_collection",
     "rich_text",
     "5a6bf641-dacc-43d8-ba4e-dec02f5786e2",
