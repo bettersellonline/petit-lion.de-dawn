@@ -55,19 +55,19 @@
         "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "picknick-geschirr"
+            "collection": "kinderzimmer"
           }
         },
         "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "holz-spielzeug"
+            "collection": "baby"
           }
         },
         "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "babykleidung"
+            "collection": "spielzeug"
           }
         }
       },
