@@ -72,7 +72,7 @@
     "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{ collection.metafields.custom.bottom_text_html }}",
+        "custom_liquid": "<div class=\"collection_bso_bottom_text\">{{ collection.metafields.custom.bottom_text_html }}<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
