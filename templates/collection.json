@@ -83,7 +83,7 @@
     "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{%- if collection.description -%}\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n      {%- assign subtitle = collection.description | split: \"-split-\" -%}\n{{ subtitle[1] }}\n    <\/div>\n  <\/section>\n<\/div>\n{%- endif -%}",
+        "custom_liquid": "{%- if collection.description -%}\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n      {%- assign subtitle = collection.description | split: \"-split-\" -%}\n{{ subtitle[1] }}\n  <\/section>\n<\/div>\n{%- endif -%}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
