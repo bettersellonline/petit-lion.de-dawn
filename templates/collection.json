@@ -3,7 +3,7 @@
     "566c82b0-9da3-47be-86ec-c67aa0ccc9c8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n<h2>{{ collection.title }}<\/h2>\n{% if collection.description %}\n{%- assign subtitle = collection.description | split: \"-split-\" -%}\n{{ subtitle[0] }}\n{% endif %}\n  <\/section>\n<\/div>",
+        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n<h2>{{ collection.title }}<\/h2>\n{% if collection.description %}\n{%- assign output = collection.description | split: \"-split-\" -%}\n{% if output.size == 2 %}\n{{ output[0] }}\n{% endif %}\n{% endif %}\n  <\/section>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
