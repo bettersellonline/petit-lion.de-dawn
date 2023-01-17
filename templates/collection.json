@@ -1,5 +1,14 @@
 {
   "sections": {
+    "566c82b0-9da3-47be-86ec-c67aa0ccc9c8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ collection.title }}\n{%- assign subtitle = collection.description | split: \"<-split->\" -%}\n{{ subtitle[0] }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -11,6 +20,7 @@
     },
     "8942c85c-69d4-4eda-84f2-c4b118c3c988": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16581755699468__8942c85c-69d4-4eda-84f2-c4b118c3c988-1673870846dff741ab-0": {
           "type": "heading",
@@ -81,6 +91,7 @@
     }
   },
   "order": [
+    "566c82b0-9da3-47be-86ec-c67aa0ccc9c8",
     "banner",
     "8942c85c-69d4-4eda-84f2-c4b118c3c988",
     "product-grid",
