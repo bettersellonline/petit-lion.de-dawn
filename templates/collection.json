@@ -9,50 +9,6 @@
         "padding_bottom": 52
       }
     },
-    "b7a9601c-515b-4855-9951-69e15a4f25ec": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16581755699468__b7a9601c-515b-4855-9951-69e15a4f25ec-1674134407b492e15d-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16581755699468__b7a9601c-515b-4855-9951-69e15a4f25ec-1674134407b492e15d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>tetdtjhkdsfgbfkj<\/strong><\/p>"
-          }
-        },
-        "template--16581755699468__b7a9601c-515b-4855-9951-69e15a4f25ec-1674134407b492e15d-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16581755699468__b7a9601c-515b-4855-9951-69e15a4f25ec-1674134407b492e15d-0",
-        "template--16581755699468__b7a9601c-515b-4855-9951-69e15a4f25ec-1674134407b492e15d-1",
-        "template--16581755699468__b7a9601c-515b-4855-9951-69e15a4f25ec-1674134407b492e15d-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -136,7 +92,6 @@
   },
   "order": [
     "566c82b0-9da3-47be-86ec-c67aa0ccc9c8",
-    "b7a9601c-515b-4855-9951-69e15a4f25ec",
     "banner",
     "8942c85c-69d4-4eda-84f2-c4b118c3c988",
     "product-grid",
