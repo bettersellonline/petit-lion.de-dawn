@@ -49,10 +49,86 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
+    "a66cc19c-38ee-4bee-a92c-83c036fef1d7": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kinderzimmer"
+          }
+        },
+        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby"
+          }
+        },
+        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spielzeug"
+          }
+        }
+      },
+      "block_order": [
+        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-0",
+        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-1",
+        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-2"
+      ],
+      "settings": {
+        "title": "Stöbere durch alle Kategorien von petit lion",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "6afac354-cd1a-4671-b139-a77bb6998fe3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dein Shop für schlichte und besondere Dekoration aus Deutschland",
+            "heading_size": "h1"
+          }
+        },
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>petit lion ist ein kleines aber hochmotiviertes Unternehmen, das sich auf Kinderzimmer Dekoration spezialisiert hat. Angeregt durch meine Kinder, gründete ich dieses Label und setze meine Leidenschaft für schlichte Designs in meine Arbeit ein.<\/p><p><br\/>Wir möchten unseren Kunden etwas ganz Besonderes bieten. Dabei stehen ihre Wünsche ganz oben auf unserer Prioritätenliste.<br\/><\/p><p>Entdecke unsere ganz besondere Deko für Mädchen- und Jungenzimmer.<\/p><p><br\/>Dekokissen aus Leinen, Wandschmuck aus Holz und Jute für Dschungelzimmer, Wald- oder Unterwasserthemen - finde hier die passenden Stücke und verschönere das Zimmer deines Kindes oder überrasche jemanden mit einem einzigartigen Geschenk.<\/p><p><\/p><p>Alexandra<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-0",
+        "template--16581755240716__6afac354-cd1a-4671-b139-a77bb6998fe3-1672817782baab6018-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Foto_12.09.21_10_33_02.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "3c001af3-f1bf-4858-9c3c-f61bb7047b0a": {
       "type": "featured-collection",
       "settings": {
-        "title": "Unsere Beliebtesten Accessoires",
+        "title": "Unsere beliebtesten Accessoires",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -65,7 +141,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -75,126 +151,12 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Schön, dass du da bist<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>petit lion ist ein kleines aber hochmotiviertes Unternehmen, das sich auf Kinderzimmer Dekoration spezialisiert hat.<\/p><p>Angeregt durch meine Kinder, gründete ich dieses Label und setze meine Leidenschaft für schlichte Designs in meine Arbeit ein.<\/p><p><br\/>Wir möchten unseren Kunden etwas ganz Besonderes bieten. Dabei stehen ihre Wünsche ganz oben auf unserer Prioritätenliste.<br\/><\/p><p>Entdecke unsere ganz besondere Deko für Mädchen- und Jungenzimmer.<\/p><p><br\/>Dekokissen aus Leinen, Wandschmuck aus Holz und Jute für Dschungelzimmer,<br\/>Wald- oder Unterwasserthemen - finde hier die passenden Stücke und verschönere das Zimmer deines Kindes oder überrasche jemanden mit einem einzigartigen Geschenk.<\/p><p><\/p><p>Alexandra<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "5a6bf641-dacc-43d8-ba4e-dec02f5786e2": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Sieh dich um und finde tolle Kleidung und Deko Artikel für dein Baby<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-0",
-        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-1",
-        "template--16581755240716__5a6bf641-dacc-43d8-ba4e-dec02f5786e2-1670935884b0d0d6d3-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "a66cc19c-38ee-4bee-a92c-83c036fef1d7": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "picknick-geschirr"
-          }
-        },
-        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "holz-spielzeug"
-          }
-        },
-        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "babykleidung"
-          }
-        }
-      },
-      "block_order": [
-        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-0",
-        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-1",
-        "template--16581755240716__a66cc19c-38ee-4bee-a92c-83c036fef1d7-167093559810d8763a-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
-    "rich_text",
-    "5a6bf641-dacc-43d8-ba4e-dec02f5786e2",
-    "a66cc19c-38ee-4bee-a92c-83c036fef1d7"
+    "a66cc19c-38ee-4bee-a92c-83c036fef1d7",
+    "6afac354-cd1a-4671-b139-a77bb6998fe3",
+    "3c001af3-f1bf-4858-9c3c-f61bb7047b0a"
   ]
 }

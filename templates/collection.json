@@ -1,11 +1,65 @@
 {
   "sections": {
+    "566c82b0-9da3-47be-86ec-c67aa0ccc9c8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n    <h2>{{ collection.title }}<\/h2>\n    {% if collection.description %}\n      {%- assign output = collection.description | split: \"-split-\" -%}\n        {% if output.size == 2 %}\n          {{ output[0] }}\n        {% endif %}\n    {% endif %}\n  <\/section>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "background-1"
+      }
+    },
+    "8942c85c-69d4-4eda-84f2-c4b118c3c988": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16581755699468__8942c85c-69d4-4eda-84f2-c4b118c3c988-1673870846dff741ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>{{ collection.title }}<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16581755699468__8942c85c-69d4-4eda-84f2-c4b118c3c988-1673870846dff741ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.kategorie_sub_title | metafield_tag }}<\/p>"
+          }
+        },
+        "template--16581755699468__8942c85c-69d4-4eda-84f2-c4b118c3c988-1673870846dff741ab-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16581755699468__8942c85c-69d4-4eda-84f2-c4b118c3c988-1673870846dff741ab-0",
+        "template--16581755699468__8942c85c-69d4-4eda-84f2-c4b118c3c988-1673870846dff741ab-1",
+        "template--16581755699468__8942c85c-69d4-4eda-84f2-c4b118c3c988-1673870846dff741ab-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "product-grid": {
@@ -13,20 +67,34 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- if collection.description -%}\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n      {%- assign output = collection.description | split: \"-split-\" -%}\n      {% if output.size == 2 %}\n        {{ output[1] }}\n      {% else %}\n        {{ output[0] }}\n      {%- endif -%}\n    <\/div>\n  <\/section>\n<\/div>\n{%- endif -%}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
+    "566c82b0-9da3-47be-86ec-c67aa0ccc9c8",
     "banner",
-    "product-grid"
+    "8942c85c-69d4-4eda-84f2-c4b118c3c988",
+    "product-grid",
+    "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4"
   ]
 }
