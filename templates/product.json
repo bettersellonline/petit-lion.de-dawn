@@ -3,16 +3,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "von Petit-Lion",
+            "text_style": "uppercase"
           }
         },
         "caption": {
@@ -94,8 +94,8 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "vendor",
         "caption",
         "price",
         "variant_picker",
