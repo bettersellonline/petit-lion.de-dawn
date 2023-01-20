@@ -80,17 +80,9 @@
         "padding_bottom": 36
       }
     },
-    "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{%- if collection.description -%}\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n      {%- assign output = collection.description | split: \"-split-\" -%}\n      {% if output.size == 2 %}\n        {{ output[1] }}\n      {% else %}\n        {{ output[0] }}\n      {%- endif -%}\n    <\/div>\n  <\/section>\n<\/div>\n{%- endif -%}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "a248728a-7f53-43f8-89db-8ef0c705232a": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--16581755699468__a248728a-7f53-43f8-89db-8ef0c705232a-167420502334dfd2ec-0": {
           "type": "text",
@@ -157,6 +149,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- if collection.description -%}\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n      {%- assign output = collection.description | split: \"-split-\" -%}\n      {% if output.size == 2 %}\n        {{ output[1] }}\n      {% else %}\n        {{ output[0] }}\n      {%- endif -%}\n    <\/div>\n  <\/section>\n<\/div>\n{%- endif -%}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -164,7 +165,7 @@
     "banner",
     "8942c85c-69d4-4eda-84f2-c4b118c3c988",
     "product-grid",
-    "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4",
-    "a248728a-7f53-43f8-89db-8ef0c705232a"
+    "a248728a-7f53-43f8-89db-8ef0c705232a",
+    "27f125fd-b70f-4a69-9da2-1d39d6a9d1e4"
   ]
 }
