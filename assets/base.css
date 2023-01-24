@@ -2957,3 +2957,8 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+/* BSO Link Color in custom Section */
+.rich-text__blocks a{
+  color:rgb(var(--color-base-outline-button-labels));
+}
