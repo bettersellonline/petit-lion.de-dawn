@@ -738,7 +738,7 @@ details > * {
 }
 
 .rich-text_blocks a{
-  color: rgba(var(--color-link), var(--alpha-link));
+  rgba(var(--color-foreground),.75)
 }
 
 .underlined-link:hover,
