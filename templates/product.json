@@ -52,6 +52,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materialien",
             "icon": "leather",
@@ -71,6 +72,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Maße",
             "icon": "ruler",
@@ -80,6 +82,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Pflegehinweise",
             "icon": "heart",
