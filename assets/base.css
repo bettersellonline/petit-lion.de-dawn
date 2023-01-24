@@ -737,10 +737,6 @@ details > * {
   transition: text-decoration-thickness ease 100ms;
 }
 
-.rich-text_blocks a{
-  color: black;
-}
-
 .underlined-link:hover,
 .customer a:hover {
   color: rgb(var(--color-link));
