@@ -737,6 +737,10 @@ details > * {
   transition: text-decoration-thickness ease 100ms;
 }
 
+.rich-text_blocks a{
+  color: rgba(var(--color-link), var(--alpha-link));
+}
+
 .underlined-link:hover,
 .customer a:hover {
   color: rgb(var(--color-link));
