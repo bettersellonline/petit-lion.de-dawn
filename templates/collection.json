@@ -3,7 +3,7 @@
     "566c82b0-9da3-47be-86ec-c67aa0ccc9c8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n    <h1>{{ collection.title }}<\/h1>\n    {% if collection.description %}\n      {%- assign output = collection.description | split: \"-split-\" -%}\n        {% if output.size == 2 %}\n          {{ output[0] }}<a href=\"#more\">» Mehr lesen<\/a>\n        {% endif %}\n    {% endif %}\n  <\/section>\n<\/div>",
+        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <section class=\"rich-text__blocks center\">\n    <h1>{{ collection.title }}<\/h1>\n    {% if collection.description %}\n      {%- assign output = collection.description | split: \"-split-\" -%}\n        {% if output.size == 2 %}\n          {{ output[0] }}\n          {%- capture language -%}{{ shop.locale }}{%- endcapture -%}\n          {% if language == \"de\"%}\n          <a href=\"#more\">» Mehr lesen<\/a>\n          {% else %}\n          <a href=\"#more\">» Read more<\/a>\n          {% endif %}\n        {% endif %}\n    {% endif %}\n  <\/section>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
