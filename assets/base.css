@@ -2962,3 +2962,11 @@ details-disclosure > details {
 .rich-text__blocks a{
   color:rgb(var(--color-base-outline-button-labels));
 }
+
+{% comment %} START Customization Better Sell Online GmbH {% endcomment %}
+
+html, #MainContent{
+  scroll-behavior: smooth;
+}
+
+{% comment %} END Customization Better Sell Online GmbH {% endcomment %}
