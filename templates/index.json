@@ -36,7 +36,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/diego.jpg",
+        "image": "shopify:\/\/shop_images\/Petit_Lion_-_Diego_der_Lowe_furs_Kinderzimmer.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -133,7 +133,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "holzwimpel",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
