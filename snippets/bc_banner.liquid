@@ -72,12 +72,39 @@
         body #banner-wrapper div.banner-header {
             justify-content: center;
         }
+        body #banner-wrapper div.banner-logo{
+            width: auto;
+            height: auto;
+        }
+        {% comment %} END Customization Better Sell Online GmbH - BSO {% endcomment %}
+
+        {% comment %} START Customization Better Sell Online GmbH - BSO Adjusting padding{% endcomment %}
+
+        {% comment %} More Padding in Desktop view{% endcomment %}
+        @media only screen and (min-width: 751px) {
+            #banner-wrapper div.banner-body__content .banner-main .banner-main_header {
+            padding: 12px 50px;
+            }
+        }
+
+        @media only screen and (max-width: 750px) {
+            #banner-wrapper div.banner-body__content .banner-main .banner-main_header {
+            padding: 12px 30px;
+            }
+        }
+
+        {% comment %} More vertical Space for the logo in mobile view{% endcomment %}
+        @media only screen and (max-width: 750px) {
+            body #banner-wrapper div.banner-header {
+                height: 75px;
+            }  
+        }
         {% comment %} END Customization Better Sell Online GmbH - BSO {% endcomment %}
 
         {% comment %} START Customization Better Sell Online GmbH - BSO Adding Custom Color to footer Links{% endcomment %}
         body #banner-wrapper div.banner-footer a{
-        color:black;
-        }
+            color:black;
+            }
         {% comment %} END Customization Better Sell Online GmbH - BSO {% endcomment %}
     </style>
 
